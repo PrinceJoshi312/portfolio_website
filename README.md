@@ -6,7 +6,7 @@ A modern, responsive, and animated portfolio website built to showcase my projec
 
 ## 🌐 Live Demo
 
-👉 [https://your-portfolio.vercel.app](https://portfolio-website-six-psi-87.vercel.app/)
+👉 [https://portfolio.vercel.app](https://portfolio-website-six-psi-87.vercel.app/)
 
 ---
 
