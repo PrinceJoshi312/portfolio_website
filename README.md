@@ -1,73 +1,119 @@
-# React + TypeScript + Vite
+# 🚀 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and animated portfolio website built to showcase my projects, skills, and experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+👉 https://your-portfolio.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* ⚛️ React
+* ⚡ Vite
+* 🎨 Tailwind CSS
+* 🎬 Framer Motion
+* 🌀 GSAP
+* 🧠 TypeScript
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ✨ Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* 🎯 Fully responsive (mobile + desktop)
+* 🎬 Smooth animations and transitions
+* 🧩 Component-based architecture
+* ⚡ Fast performance with Vite
+* 🌙 Modern dark UI
+* 🖱️ Interactive hover effects
+* 📜 Scroll-based animations
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── components/
+ ├── assets/
+ ├── pages/
+ └── App.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Getting Started
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1. Clone the repository
+
 ```
+git clone https://github.com/PrinceJoshi312/Portfolio-Website.git
+cd Portfolio-Website
+```
+
+### 2. Install dependencies
+
+```
+npm install
+```
+
+### 3. Run development server
+
+```
+npm run dev
+```
+
+### 4. Build for production
+
+```
+npm run build
+```
+
+### 5. Preview production build
+
+```
+npm run preview
+```
+
+---
+
+## 📦 Deployment
+
+This project is deployed using Vercel.
+
+To deploy:
+
+* Push code to GitHub
+* Import repo into Vercel
+* Click deploy
+
+---
+
+## 📸 Screenshots
+
+<img width="1917" height="904" alt="image" src="https://github.com/user-attachments/assets/f1de2168-643a-4fb7-89fb-83b1627b5dfd" />
+<img width="1919" height="847" alt="image" src="https://github.com/user-attachments/assets/2fca31cd-53cd-4166-952b-093f5be0d323" />
+
+
+
+---
+
+## 📬 Contact
+
+* LinkedIn: www.linkedin.com/in/princejoshi312
+* Email: [princejoshij736@gmail.com](mailto:princejoshij736@gmail.com)
+
+---
+
+## ⭐ Acknowledgements
+
+Inspired by modern developer portfolios and UI/UX trends.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
