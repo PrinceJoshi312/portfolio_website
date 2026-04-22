@@ -8,9 +8,11 @@ import { cn } from '../../utils/cn';
 import githubIcon from '../../assets/icons/github.png';
 import linkedinIcon from '../../assets/icons/linkedin.png';
 import kaggleIcon from '../../assets/icons/kaggle.png';
+import xIcon from '../../assets/icons/x.png';
 
 const contactInfo = [
   { icon: Mail, isImage: false, label: 'Email', value: 'princejoshij736@gmail.com', href: 'mailto:princejoshij736@gmail.com', isWhiteIcon: false },
+  { icon: xIcon, isImage: true, label: 'X', value: 'PrinceJosh64109', href: 'https://x.com/PrinceJosh64109', isBlackBg: true },
   { icon: linkedinIcon, isImage: true, label: 'LinkedIn', value: 'princejoshi312', href: 'https://www.linkedin.com/in/princejoshi312', isWhiteIcon: false },
   { icon: kaggleIcon, isImage: true, label: 'Kaggle', value: 'princejoshi18', href: 'https://www.kaggle.com/princejoshi18', isWhiteIcon: false },
   { icon: githubIcon, isImage: true, label: 'GitHub', value: 'PrinceJoshi312', href: 'https://github.com/PrinceJoshi312', isWhiteIcon: true },
@@ -60,7 +62,10 @@ export const Contact = () => {
                 >
                   <div className={cn(
                     "p-2 rounded-lg group-hover:scale-110 transition-transform flex items-center justify-center",
-                    item.isImage ? "bg-white shadow-md" : "bg-indigo-500/10 text-indigo-400"
+                    item.isImage ? (
+                      // @ts-ignore
+                      item.isBlackBg ? "bg-black shadow-md border border-white/10" : "bg-white shadow-md"
+                    ) : "bg-indigo-500/10 text-indigo-400"
                   )}>
                     {item.isImage ? (
                       <img 
